@@ -12,8 +12,6 @@ If there's anything I am doing wrong, please open a discussion or PR on the repo
   - [[#manual-dependency-management][Manual dependency management]]
 - [[#ai-usage][AI usage]]
 - [[#roadmap-of-things-to-be-done][Roadmap of things to be done]]
-  - [[#implement-event-listener-for-player-struct][implement event listener for Player struct]]
-  - [[#implement-method-of-user-configuration][implement method of user configuration]]
 
 * Dev tools
 arma is primarily written in Rust. Make sure that you are using the latest stable version of rust (as of now, 1.98.0). Additionally, we use rustfmt to format the code, so please ensure that it is installed and configured properly!
@@ -41,5 +39,5 @@ You must be able to verify that you understand the code and that it works within
 Any use of AI must be disclosed along with the model used. *No exceptions*.
 
 * Roadmap of things to be done
-** TODO implement event listener for Player struct
-** TODO implement method of user configuration
+- [ ] implement event listener for Player struct
+- [ ] implement method of user configuration
