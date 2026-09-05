@@ -1,0 +1,45 @@
+#+title: Contributing
+
+Thank you for taking your time to contribute to arma! Anyone is free to help out with this project, as long as your work follows the guidelines below.
+
+/note to early contributors/: this is my first open-source project, so please excuse my bad organization.
+If there's anything I am doing wrong, please open a discussion or PR on the repo to suggest structural/organizational changes to the structure of this project and I will try to learn from them and implement them in some way.
+
+
+* Table of Contents :toc:
+- [[#dev-tools][Dev tools]]
+  - [[#developing-with-nixrecommended][Developing with nix(recommended)]]
+  - [[#manual-dependency-management][Manual dependency management]]
+- [[#ai-usage][AI usage]]
+- [[#roadmap-of-things-to-be-done][Roadmap of things to be done]]
+  - [[#implement-event-listener-for-player-struct][implement event listener for Player struct]]
+  - [[#implement-method-of-user-configuration][implement method of user configuration]]
+
+* Dev tools
+arma is primarily written in Rust. Make sure that you are using the latest stable version of rust (as of now, 1.98.0). Additionally, we use rustfmt to format the code, so please ensure that it is installed and configured properly!
+
+** Developing with nix(recommended)
+If you are using nix or NixOS, the dependencies are handled for you by the flake:
+#+begin_src
+git clone https://github.com/pokemans123/arama.git
+cd arama
+nix develop
+#+end_src
+
+** Manual dependency management
+In addition to rust and rustfmt, also ensure the latest versions of the following are installed:
+- [[https://github.com/mpv-player/mpv][mpv]] (along with the [[https://github.com/hoyon/mpv-mpris][MPRIS script]])
+- [[https://github.com/yt-dlp/yt-dlp][ yt-dlp]]
+- clippy
+- cargo-watch
+- playerctl
+
+* AI usage
+This is a small, open-source project devs are contributing to for fun in what little spare time they may have;
+hence, use of AI to automate tasks or write snippets of code is okay, but as the human, *you* are responsible for the code that is submitted here.
+You must be able to verify that you understand the code and that it works within the existing structure of the project.
+Any use of AI must be disclosed along with the model used. *No exceptions*.
+
+* Roadmap of things to be done
+** TODO implement event listener for Player struct
+** TODO implement method of user configuration

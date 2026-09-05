@@ -1,0 +1,1 @@
+/home/pranav/Projects/music-player/target/debug/tuimusic: /home/pranav/Projects/music-player/src/index.rs /home/pranav/Projects/music-player/src/library.rs /home/pranav/Projects/music-player/src/main.rs /home/pranav/Projects/music-player/src/player.rs

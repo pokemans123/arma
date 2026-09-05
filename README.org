@@ -1,0 +1,13 @@
+#+title: arma - Another Rusty Music App
+
+* Table of Contents :toc:
+- [[#why-arma][Why arma?]]
+- [[#acknowledgments][Acknowledgments]]
+
+* Why arma?
+Wait, a TUI music player written in Rust? Doesn't that already exist? Yes it does; it's called [[https://github.com/mierak/rmpc][rmpc]](it is an amazing program I highly recommend you check out). And while it is a gorgeous program, it is very limited in its ability to stream music directly because it is an [[https://github.com/MusicPlayerDaemon/MPD][mpd]] client. I wanted to recreate the amazing design and customization of rmpc but without the limitations of mpd. And so, arma was born.
+
+Arma is currently in active development and is not ready for daily use as of now. But don't fret, it will be soon! If you want to help out, check out [[file:CONTRIBUTING.org][CONTRIBUTING.org]]
+
+* Acknowledgments
+As mentioned previously, [[https://github.com/mierak/rmpc][rmpc]] was a huge inspiration for this project, especially the UI.
